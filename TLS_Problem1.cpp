@@ -51,7 +51,7 @@ void jalankan_eliminasi(int N, int K) {
             K = 2;
         }
 
-        // Cari posisi awal berikutnya yang belum tereliminasi
+        // Cari posisi awal berikutnya 
         if (tereliminasi_count < N) {
             while (dieliminasi[pos]) {
                 pos = (pos + 1) % N;
